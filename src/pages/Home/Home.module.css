@@ -1,0 +1,96 @@
+ .container {
+    max-width: 46rem;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 1rem;
+  
+
+  
+    }
+
+
+
+    .infoTaskContainer{
+        display: flex;
+        justify-content: space-between; 
+
+        margin-bottom: 1.5rem;
+      
+    }
+    .createdTask{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--blue);
+        font-weight: bold;
+     
+    }
+   
+
+    .createdTask span{
+        width: 1.5rem;
+        height: 1.18rem;
+        border-radius: 999px;
+
+        font-size: 0.75rem;
+        background: var(--gray-400);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        color: white;
+        font-weight: bold;
+    
+       
+    }
+
+    .completTask{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--purple);
+        font-weight: bold;
+    }
+   
+
+    .completTask span{
+        width: 4rem;
+        height: 1.18rem;
+        border-radius: 999px;
+        padding: 0.125rem 0.5rem;
+        background: var(--gray-400);
+
+        font-size: 0.75rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        color: white;
+        font-weight: bold;
+    
+       
+    }
+
+
+
+    
+
+
+
+
+      .tasknotFound{
+        padding-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+     
+
+
+  
